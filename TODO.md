@@ -1,0 +1,95 @@
+- [ ] Web support
+    - [x] Bug? Seems like I have to press space twice to start game
+    - [x] Preload audio data to avoid creating buffers unnecessarily 
+    - [x] Share posix utils with linux
+    - [x] Error handling
+        - [x] WebGL
+        - [x] Audio
+        - [x] HTML/CSS
+        - [x] Gamepad
+        - [x] Fullscreen
+    - [x] Split out graphics and audio init 
+    - [x] In game "Press key to start" screen
+    - [x] Check that C assert function works (maybe abort would be better?)
+    - [x] Figure out proper gamepad deadzone
+    - [x] Update architecture doc
+    - [x] ~~Separate GameInput.startButton to handle start screen~~ Fix start screen logic
+    - [x] Move fullscreen toggle instructions to start screen
+    - [x] Figure out min memory requirements
+    - [x] Set up site
+- [x] Document design
+- [x] Audio format constants should be in constants.h
+- [x] More comments
+- [x] Update readme
+- [x] New GIF
+- [x] Display score for next level
+- [x] See if game loop can be tightened up
+- [x] Assert events don't overlap
+- [x] Clean up globals 
+- [x] Fix keyboard input so pressing two direction keys at the same time works
+- [x] Switch instruction text based on whether keyboard or controller was last used
+- [x] Start in fullscreen
+- [x] Full controller support (toggle fullscreen and quit)
+- [x] Windows audio cleanup
+- [x] Linux audio cleanup
+- [x] Hide mouse cursor
+- [x] Linux: Use XCreateWindow instead of XCreateSimpleWindow?
+- [x] Linux: What does SubstructureNotifyMask | SubstructureRedirectMask do?
+- [x] Debug versus release builds (e.g. disable debug logging, turn on optimizations)
+- [x] Shoot to skip title sequence
+- [x] In intro sequence, get rid of delay between showing HUD and showing "level 1"
+- [x] Check the minimum version of OpenGL required
+- [x] Display fullscreen toggle controls
+- [x] More error checks, asserts, fault tolerance
+- [x] Can the pixels be kept blocky at smaller scales?
+- [x] Invincibility period after dying
+- [x] Shaders as external files
+- [x] Sprite rendering
+- [x] Audio engine
+- [x] Controller support
+- [x] Keyboard support
+- [x] Player ship
+- [x] Fire bullets
+- [x] Enemy ships
+- [x] Multiple enemy ship types
+- [x] Enemy bullets
+- [x] Enemy bullet sound
+- [x] Bullets kill enemies
+- [x] Bullets kill player
+- [x] Enemies explode
+- [x] Player explodes
+- [x] Explosion sound
+- [x] Crashes kill enemy and player
+- [x] Stars passing
+- [x] Multiple levels
+- [x] Lives
+- [x] Game over screen
+- [x] Text Rendering
+- [x] Title screen
+- [x] Keep score
+- [x] Scale using ~~a framebuffer~~ the viewport
+- [x] Get rid of copying into render list
+- [x] Instanced draws
+- [x] Errors checks in BMP/WAV file parsing
+- [x] Get rid of win32 error messages in the renderer
+- [x] Fullscreen
+- [x] Loop music
+- [x] Area outside game area in different color
+- [x] Large enemies take more hits
+- [x] Hit sound
+- [x] Hit animation
+- [x] Enemies can fire from offscreen
+- [x] Collision boxes
+- [x] Clean up controls (e.g. rapid fire while moving)
+- [x] BMP for sprites, remove stb_image dep
+- [x] Bug in fadeout: title display and title fade can be triggered at the same time
+- [x] Linux support
+    - [x] Rendering
+    - [x] Audio
+    - [x] High-resolution timer
+    - [x] Keyboard input
+    - [x] Gamepad input
+    - [x] Full screen
+- [x] Replace MIXIN_STRUCT with something that doesn't require MS extensions
+- [x] Fix timing of whiteout
+- [x] BUG: Player bullet sometimes appears when transitioning levels.
