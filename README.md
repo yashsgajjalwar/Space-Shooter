@@ -2,7 +2,6 @@ space-shooter.c
 ===============
 A cross-platform, top-down 2D space shooter written in C using only platform libraries.
 
-![gif](./space-shooter.c.gif)
 
 Dependencies
 ------------
